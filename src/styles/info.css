@@ -1,0 +1,50 @@
+.about {
+    background-color: #f0f3f3f8;
+    color: #525557;
+}
+.about1 {
+    padding-left: 20px;
+}
+
+.copyright {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.opis {
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.map {
+    padding-left: 70px;
+    width: 500px;
+}
+
+.contact {
+    background-color: #212529;
+    color: white;
+    opacity: 0.5;
+   
+}
+
+.fa-fw1 {
+    padding-right: 9%;
+    padding-left: 20%;
+}
+.fa-fw2 {
+    padding-right: 9%;
+    padding-left: 15%;
+}
+.fa-fw3 {
+    padding-right: 9%;
+    padding-left: -1%;
+}

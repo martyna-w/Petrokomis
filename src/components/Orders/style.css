@@ -1,0 +1,124 @@
+.custom-select {
+  width: 305px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+  }
+
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    background-color:#198754;
+  }
+  
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  .select-items {
+    position: absolute;
+    background-color: #198754;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+.shippingPrice {
+  width: 305px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shippingPrice:active {
+  outline: 0;
+  width: 305px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.date {
+  width: 305px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.date:focus {
+  outline: 0;
+  width: 250px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+}

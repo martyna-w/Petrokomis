@@ -1,0 +1,39 @@
+.trstyle {
+    text-align: left; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    column-gap: 8px;
+    padding-left: 9px;
+  }
+  .grid-item {
+    border: 1px solid rgba(199, 194, 194, 0.8);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    padding-left: 2px;
+    padding-top: 1px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(235, 236, 235);
+    color: white;
+  }
+
+  .grid-item1 {
+    border: 1px solid rgba(199, 194, 194, 0.8);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    padding-top: 2x;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btnP:focus {
+      outline: 0;
+  }
+  .btnM:focus {
+    outline: 0;
+}

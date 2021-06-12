@@ -1,0 +1,86 @@
+.email {
+    position: relative;
+    left: -3px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    border: 2px solid  grey;
+}
+
+.profile {
+    position: relative;
+    left: -3px;
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    
+    border: 2px solid  grey;
+
+}
+
+.fa-profil {
+    color:#7a8186;
+    padding-top: 20%;
+    padding-bottom: 4%;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.card.one {
+    width: 35rem;
+    position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%)
+}
+
+
+body {
+background: #fdfdfd;
+}
+
+.content.two {
+    width: 33%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    opacity: 85%;
+}
+
+.csize1 {
+    width: 33%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    opacity: 85%;
+    border:1px solid rgb(228, 223, 223);
+    border-radius: 15px;
+}
+
+.csize2 {
+    width: 33%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    opacity: 85%;
+    border:1px solid rgb(228, 223, 223);
+    border-radius: 15px;
+}
+
+.table1 {
+    border-radius: 15px;
+}

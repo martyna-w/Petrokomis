@@ -1,0 +1,340 @@
+.card-one {
+  position: relative;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+.MuiCard-root.custom-card-one {
+  background-color: #FFFFFF;
+  color: #c9d1d9;
+  transition: all 0.5s ease-in-out;
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 19%;
+  height: 25%;
+  }
+  
+  .MuiCard-root.custom-card-one:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px #c9d1d9;
+  }
+  
+  .custom-card-one .content {
+    padding-bottom: 0;
+  }
+  
+  .custom-card-one .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+  }
+ 
+  .custom-card-one p {
+    color: #c9d1d9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .custom-card-one .price {
+    margin-top: 10px;
+    color: #c9d1d9;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .actions-content {
+    display: flex;
+  }
+  
+  .actions-content h2 {
+    flex-grow: 1;
+  }
+  
+  .custom-card-one .custom-button {
+    color: black;
+  }
+  
+  .custom-card-one .custom-button:hover {
+    background-color: #198754;
+    color: #FFFFFF;
+  }
+  
+  .custom-card-one .custom-button svg {
+    margin-right: 10px;
+  }
+
+  .card-two {
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+  .MuiCard-root.custom-card-two {
+    background-color: #FFFFFF;
+    color: #c9d1d9;
+    transition: all 0.5s ease-in-out;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 19%;
+    height: 25%;
+  }
+  
+  .MuiCard-root.custom-card-two:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px #c9d1d9;
+  }
+  
+  .custom-card-two .content {
+    padding-bottom: 0;
+  }
+  
+  .custom-card-two .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+  }
+ 
+  .custom-card-two p {
+    color: #c9d1d9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .custom-card-two .price {
+    margin-top: 10px;
+    color: #c9d1d9;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .actions-content {
+    display: flex;
+  }
+  
+  .actions-content h2 {
+    flex-grow: 1;
+  }
+  
+  .custom-card-two .custom-button {
+    color: #FFFFFF;
+    background-color: #198754 ;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: -22%;
+  }
+  
+  .custom-card-two .custom-button:hover {
+    background-color: rgb(104, 206, 104);
+    color: #FFFFFF;
+    border-color: white;
+  }
+  .custom-card-two .custom-button:focus {
+    outline:0;
+  }
+  
+  .custom-card-two .custom-button svg {
+    margin-right: 10px;
+  }
+
+  .card-three {
+      position: relative;
+      padding-left: 2%;
+      padding-right: 2%;
+  
+  }
+
+  .MuiCard-root.custom-card-three {
+    background-color: #FFFFFF;
+    color: #c9d1d9;
+    transition: all 0.5s ease-in-out;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 19%;
+    height: 25%;
+  }
+  
+  .MuiCard-root.custom-card-three:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px #c9d1d9;
+  }
+  
+  .custom-card-three .content {
+    padding-bottom: 0;
+  }
+  
+  .custom-card-three .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+  }
+ 
+  .custom-card-three p {
+    color: #c9d1d9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .custom-card-three .price {
+    margin-top: 10px;
+    color: #c9d1d9;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .actions-content {
+    display: flex;
+  }
+  
+  .actions-content h2 {
+    flex-grow: 1;
+  }
+  
+  .custom-card-three .custom-button {
+    color: black;
+  }
+  
+  .custom-card-three .custom-button:hover {
+    background-color: #198754;
+    color: #FFFFFF;
+  }
+  
+  .custom-card-three .custom-button svg {
+    margin-right: 10px;
+  }
+
+  .name {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-family: Arial;
+  }
+  .name:focus {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    transition: none;
+  }
+  .price1 {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid grey;
+  } 
+  .price1:focus  {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+  } 
+  .des {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid grey;
+  }
+  .des:focus  {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+  }
+  .file {
+    opacity: 0;
+    width: 150px;
+    height: 38px;
+    position: absolute;
+  }
+  .file-input {
+    width: 100%;
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 38px;
+    padding-top: 4px;
+    border-radius: 5px;
+    background: white;
+    border: 2px solid #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+.pname {
+  width: 290px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pprice {
+  width: 310px;
+  height: 37px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  border-color:rgb(209, 206, 206);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.pprice:focus {
+  outline: 0;
+}
+.pname:focus {
+  outline: 0;
+}
+textarea:hover, 
+input:hover,
+select:hover, 
+textarea:active, 
+input:active, 
+select:active,
+textarea:focus, 
+input:focus,
+select:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border-color: rgb(104, 206, 104);
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
