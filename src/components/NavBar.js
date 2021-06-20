@@ -37,7 +37,6 @@ export default function Navbar() {
                 <li class="nav-item px-2">
                   <Link to='/panel' className="nav-link">Dodaj produkt</Link>
                 </li>
-                <li>aaaaaaaaaaaaaaaaaaaaaa</li>
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Szukaj produktu" id="keyword" type="text" onKeyUp={(e) => {handleKeyUp(e, history)}}/>
@@ -71,7 +70,6 @@ export default function Navbar() {
                 <li class="nav-item px-2">
                   <Link to='/order' class="nav-link">Zamówienie</Link>
                 </li>
-                <li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Szukaj produktu" id="keyword" type="text" onKeyUp={(e) => {handleKeyUp(e, history)}}/>
@@ -102,7 +100,6 @@ export default function Navbar() {
                 <li class="nav-item px-2">
                   <Link to='/login' class="nav-link">Zaloguj się</Link>
                 </li>
-                <li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Szukaj produktu" id="keyword" type="text" onKeyUp={(e) => {handleKeyUp(e, history)}}/>
